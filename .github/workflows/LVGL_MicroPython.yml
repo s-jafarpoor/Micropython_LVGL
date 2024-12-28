@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
 
 env:
-  LVGL: lvgl_micropython
-  LVGL_REPO: https://github.com/lvgl-micropython/lvgl_micropython.git
+  LVGL: Micropython_LVGL
+  LVGL_REPO: https://github.com/s-jafarpoor/Micropython_LVGL.git
   LVGL_VERSION: v9.1.0
   TZ: Asia/Shanghai
 
@@ -79,7 +79,7 @@ jobs:
           tag: LVGL_MicroPython-${{env.LVGL_VERSION}}
           body: |
             ### LVGL & MicroPython Firmware For ESP32
-            [LVGL_MicroPython](https://github.com/lvgl-micropython/lvgl_micropython)  
+            [Micropython_LVGL](https://github.com/s-jafarpoor/Micropython_LVGL)  
             LVGL:                  v9.1.0  
             MicroPython:           v1.24.1  
             ESP-IDF:               v5.2.3
