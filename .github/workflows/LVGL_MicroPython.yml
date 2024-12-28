@@ -10,6 +10,7 @@ env:
   TZ: Asia/Shanghai
 
 jobs:
+  permissions: write-all
   LVGL_MicroPython-ESP32:
     name: Build LVGL_MicroPython
     runs-on: ubuntu-22.04
